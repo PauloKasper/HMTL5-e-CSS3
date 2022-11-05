@@ -1,4 +1,2 @@
 # Estudos
-
- 
 Desenvolvendo ideias!
