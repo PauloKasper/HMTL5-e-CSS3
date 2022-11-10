@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "passion";
+    src: url("fonts/PassionOne-Bold.ttf");
+}
+@font-face {
+    font-family: "Sriracha";
+    src: url("fonts/sriracha-latin-400-normal.woff2");
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+body{
+   min-height: 100vh;
+   background-color: darkgray;
+   font-family: passion;
+}
+header{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: passion;
+    font-size: 10vw;
+}
+header > p{
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p > a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
+    
+
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgba(51, 51, 51, 0.641);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgb(0, 0, 0/ 47%);
+    background-attachment: fixed;
+    background-size: cover;
+}
+section.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.137);
+    text-shadow: 1px 1px 0px black;
+}
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+section#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+}
+footer > p{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.rodape{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:visited{
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+a:active{
+    color: rgba(208, 198, 132, 0.833);
+}
+a::before{
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
+a::after{
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
